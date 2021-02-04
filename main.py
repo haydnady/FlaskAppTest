@@ -1,5 +1,5 @@
 from flask import Flask
-from SecondPage import FlaskBP
+from SecondPage.FlaskBP import FlaskBP
 
 app = Flask(__name__)
 app.register_blueprint(FlaskBP)

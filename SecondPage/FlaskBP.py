@@ -6,4 +6,4 @@ FlaskBP = Blueprint("FlaskBP", __name__,
 
 @FlaskBP.route("/home")
 def helloNow():
-    return render_template("<h1>Hello</h1>")
+    return "<h1>Hello</h1>"
